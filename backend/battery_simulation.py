@@ -14,4 +14,3 @@ def run_simulation(battery_model: str, params: dict):
         "voltage": sim.solution["Terminal voltage [V]"].entries.tolist(),
         "capacity": sim.solution["Capacity [Ah]"].entries.tolist()
     }
-
