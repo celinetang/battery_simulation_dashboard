@@ -35,3 +35,16 @@ I am a hybrid battery engineer and data engineer working on an advanced system f
 6. **Testing and Version Control**:
     - Implement unit tests for battery simulations, database queries, and APIs.
     - Use **Git** to track your work and write a detailed `README.md` for documentation.
+
+
+
+In order to run via Docker :
+
+Build the Backend Container:
+docker build -t battery-backend ./backend
+
+Build the Dashboard Container:
+docker build -t battery-dashboard ./dashboard
+
+Run Containers:
+docker-compose up
