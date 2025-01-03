@@ -1,8 +1,8 @@
 # backend/app.py
 from fastapi import FastAPI, HTTPException
-from backend.battery_simulation import run_simulation
-from backend.data_pipeline import calculate_metrics
-from backend.database import save_simulation, get_results
+from battery_simulation import run_simulation
+from data_pipeline import calculate_metrics
+from database import save_simulation, get_results
 
 app = FastAPI()
 
